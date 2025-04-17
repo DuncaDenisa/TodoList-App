@@ -12,10 +12,6 @@ venv/
 # Logs
 *.log
 
-# Database files
-*.sqlite3
-*.db
-
 # Alembic migration files
 alembic/versions/*.pyc
 
@@ -25,7 +21,3 @@ alembic/versions/*.pyc
 
 # IDE-specific files
 .vscode/
-
-# OS-specific files
-.DS_Store
-testdb.db
