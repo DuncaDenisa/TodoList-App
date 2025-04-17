@@ -1,0 +1,19 @@
+#TO RUN APP
+
+uvicorn TodoApp.main:app --reload
+
+#TO RUN TESTS
+
+pytest
+pytest --disable-warnings
+
+#ENVIRONMENT
+python3 -m venv venv
+source venv/bin/activate
+deactivate
+
+#GENERATE RANDOM NUMBER FOR CRYPT
+openssl rand -hex 32
+
+#SQLITE
+sqlite3 testdb.db

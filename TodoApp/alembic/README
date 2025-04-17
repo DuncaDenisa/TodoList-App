@@ -1,0 +1,6 @@
+Generic single-database configuration.
+
+alembic init alembic
+alembic revision -m "text"
+alembic upgrade <id_of_version>
+alembic downgrade -1
